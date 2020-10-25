@@ -1,0 +1,21 @@
+{
+  "name": "mybutton_test",
+  "version": "1.0.0",
+  "description": "First Npm Package",
+  "private": false,
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve NiceHandsomeButton.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "author": "akumar00029",
+  "license": "ISC",
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "bili": "^5.0.5",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
